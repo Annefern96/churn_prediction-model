@@ -26,7 +26,7 @@ Using customer behavioral analytics to identify high-risk customers and support 
 ---
 
 <p align="center">
-<img src="images/churn-banner.png" width="900">
+<img src="Chatgpt_churn_prediction.png" width="900">
 </p>
 
 ---
