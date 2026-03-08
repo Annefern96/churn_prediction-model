@@ -31,17 +31,15 @@ Using customer behavioral analytics to identify high-risk customers and support 
 
 ---
 
-# 🚀 Project Overview
+#  Project Overview
 
-Customer churn represents a significant challenge for businesses that rely on long-term customer relationships. Losing customers leads to revenue loss and higher marketing costs for acquiring new ones.
-
-This project develops a **machine learning model that predicts which customers are likely to churn**, allowing companies to proactively intervene with targeted retention strategies.
+Customer churn represents a significant challenge for businesses that rely on long-term customer relationships. Losing customers leads to revenue loss and higher marketing costs for acquiring new ones. This project develops a **machine learning model that predicts which customers are likely to churn**, allowing companies to proactively intervene with targeted retention strategies.
 
 The project demonstrates a **complete end-to-end data science workflow**, from exploratory analysis to model explainability and business insights.
 
 ---
 
-# 🏢 Business Problem
+#  Business Problem
 
 Customer churn occurs when customers stop using a company's products or services.
 
@@ -53,9 +51,8 @@ Businesses aim to answer key questions such as:
 
 By predicting churn risk, organizations can **target high-risk customers with personalized retention strategies**.
 
----
 
-# 📂 Dataset
+#  Dataset
 
 The dataset contains customer-related information including:
 
@@ -72,7 +69,8 @@ The dataset contains customer-related information including:
 
 ---
 
-# 🔄 Machine Learning Pipeline
+
+#  Machine Learning Pipeline
 
 ```mermaid
 flowchart LR
@@ -88,7 +86,7 @@ H --> I[Business Insights]
 
 ---
 
-# 🧠 Model Development
+#   Model Development
 
 Two gradient boosting algorithms were implemented:
 
@@ -99,9 +97,11 @@ These models are widely used for structured tabular data and often provide stron
 
 Hyperparameter tuning was performed using **Hyperopt** to optimize model performance.
 
+
 ---
 
-# 📈 Model Performance
+
+#  Model Performance
 
 | Model               | Accuracy | ROC-AUC |
 | ------------------- | -------- | ------- |
@@ -113,7 +113,7 @@ The gradient boosting models demonstrated strong performance in identifying cust
 
 ---
 
-# 🔍 Model Explainability
+#  Model Explainability
 
 To understand the drivers behind churn predictions, this project uses **SHAP (SHapley Additive Explanations)**.
 
@@ -161,22 +161,6 @@ customer-churn-prediction
 └── README.md
 ```
 
----
-
-# 🛠 Technologies Used
-
-| Category              | Tools               |
-| --------------------- | ------------------- |
-| Programming           | Python              |
-| Data Analysis         | Pandas, NumPy       |
-| Visualization         | Matplotlib, Seaborn |
-| Machine Learning      | Scikit-Learn        |
-| Gradient Boosting     | XGBoost, CatBoost   |
-| Hyperparameter Tuning | Hyperopt            |
-| Explainability        | SHAP                |
-
----
-
 # ▶️ How to Run the Project
 
 Clone the repository
@@ -211,10 +195,10 @@ Possible improvements include:
 
 ---
 
-# 👩‍💻 Author
+# Author
 
-**Anne Warnakulasuriya**
+**Anne Fernando**
 
-Data Science Student
+This project was completed as part of a University Artificial Intelligence for Communication and Marketing assignment and is shared as part of my data science portfolio on GitHub.
 
-GitHub: https://github.com/yourusername
+GitHub: https://github.com/Annefern96
