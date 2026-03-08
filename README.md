@@ -52,18 +52,18 @@ Businesses aim to answer key questions such as:
 By predicting churn risk, organizations can **target high-risk customers with personalized retention strategies**.
 
 
+
+
 #  Dataset
 
-The dataset contains customer-related information including:
+The dataset contains customer-related information collected from an e-commerce platform. These features capture customer demographics, behavioral patterns, satisfaction levels, and loyalty indicators that help predict customer churn.
 
-| Category             | Description                        |
-| -------------------- | ---------------------------------- |
-| Demographics         | Customer profile information       |
-| Behavioral Data      | Engagement and purchase patterns   |
-| Satisfaction Metrics | Customer feedback and ratings      |
-| Loyalty Indicators   | Customer tenure and loyalty status |
-
-**Target Variable**
+| Category | Description | Related Features |
+|----------|-------------|------------------|
+| **Demographics** | Customer profile information  | `Gender`, `CityTier`, `MaritalStatus`, `PreferredLoginDevice` |
+| **Behavioral Data** | Engagement and purchase patterns| `OrderCount`, `PreferredPaymentMode`, `NumberOfAddress`, `OrderAmountHikeFromLastYear`, `PreferredOrderCategory` |
+| **Satisfaction Metrics** | Customer feedback and ratings | `SatisfactionScore`, `Complain`, `WarehouseToHome` |
+| **Loyalty Indicators** |  Customer tenure and loyalty status | `Tenure`, `NumberOfDeviceRegistered`, `DaySinceLastOrder`, `CouponUsed`, `CashbackAmount` |
 
 `Churn` → Indicates whether a customer has discontinued using the service.
 
@@ -139,7 +139,7 @@ These insights help businesses design **data-driven customer retention strategie
 
 ---
 
-# 📁 Project Structure
+#  Project Structure
 
 ```
 customer-churn-prediction
