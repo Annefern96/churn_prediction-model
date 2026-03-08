@@ -1,0 +1,17 @@
+customer-churn-prediction
+│
+├── data
+│   └── dataset.csv
+│
+├── notebooks
+│   └── customer_churn_prediction.ipynb
+│
+├── images
+│   └── churn-banner.png
+│
+├── outputs
+│   └── high_risk_churn_customers.csv
+│
+├── requirements.txt
+│
+└── README.md
